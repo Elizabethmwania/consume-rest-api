@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import './Styles/App.css';
-// import Person from './components/Person';
 import Personss from './components/Persons';
 import Cockpit from './components/Cockpit';
-import Reaction from './components/Reaction'
-import ReducerExample from './components/ReducerExample';
-import EffectExample from './components/EffectExample';
 
 export const AuthContext = React.createContext(false); 
 
@@ -83,9 +79,7 @@ loginHandler = () =>{
     click={this.togglePersonHandler} /> 
     <AuthContext.Provider  value={this.state.authenticated}>{Persons}</AuthContext.Provider> 
 
-    {/* <Reaction /> */}
-    {/* <ReducerExample /> */}
-    <EffectExample />
+    {/* <Nav /> */}
   </div>
   );
 }  

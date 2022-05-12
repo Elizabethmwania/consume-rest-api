@@ -1,0 +1,11 @@
+.nav-bar{
+    background-color: gray;
+    text-align: left;
+    
+}
+.nav-bar-page1-item{
+    text-decoration: none;
+    text-align: justify;
+    cursor: pointer;
+
+}
